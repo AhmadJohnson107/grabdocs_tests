@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.ENV/
+
+# Playwright
+playwright-report/
+test-results/
+blob-report/
+trace.zip
+*.trace.zip
+*.zip
+
+# Selenium / WebDriver
+selenium_config/drivers/
+webdriver.log
+geckodriver.log
+chromedriver.log
+
+# Test artifacts
+reports/
+screenshots/
+videos/
+logs/
+*.log
+*.trace
+*.har
+
+# Environment & secrets
+.env
+*.secret
+*.key
+*.pem
+.auth
+
+# IDE / Editors
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Coverage & profiling
+htmlcov/
+.coverage
+.coverage.*
+.cache/
+.pytest_cache/
+.prof
+
+# Node (if Playwright installs dependencies)
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Misc
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+logged_in.json
